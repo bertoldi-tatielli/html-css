@@ -1,0 +1,55 @@
+body {}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+section {
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+    background: white;
+    color: black;
+}
+    
+article{
+    padding: 10px;
+}
+
+article>p {
+    max-width: 200px;
+    padding: 0px 10px;
+}
+
+#article-2 {
+    background-image: url("imagens/background001.jpg");
+    background-size: cover;
+    background-attachment: scroll;
+    color: white;
+    background-position: center;
+    padding: 0px;
+    
+
+}
+footer {
+  text-align: center;
+  padding: 10px;
+  background: black;
+  color: white;
+}
+
+#paragrafo-2 {
+
+}

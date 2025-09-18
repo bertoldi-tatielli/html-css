@@ -1,0 +1,50 @@
+/* Fontes */
+body {
+  font-family: 'Sriracha', cursive;
+  margin: 0;
+  padding: 0;
+}
+
+/* Cabeçalho */
+header {
+  text-align: center;
+  font-family: 'Passion One', cursive;
+  font-size: 3em;
+  background: black;
+  color: white;
+  padding: 50px;
+}
+
+/* Seções normais */
+section.normal {
+  padding: 50px;
+  background: white;
+  color: black;
+}
+
+/* Seções com imagem (parallax) */
+section.imagem {
+  padding: 50px;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* <- aqui entra o parallax */
+}
+
+/* Cada imagem */
+section.imagem1 {
+  background-image: url("imagens/background001.jpg");
+}
+
+section.imagem2 {
+  background-image: url("imagens/background002.jpg");
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: black;
+  color: white;
+}
+

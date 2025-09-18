@@ -1,0 +1,53 @@
+<!DOCTYPE html> <!-- Define o tipo de documento como HTML5 -->
+<html lang="pt-br"> <!-- Início do documento HTML, com idioma definido como português do Brasil -->
+
+<head> <!-- Cabeçalho do documento: contém informações de configuração -->
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres como UTF-8 (aceita acentos e caracteres especiais) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ajusta o site para telas de celulares (responsivo) -->
+    <title>Página 02</title> <!-- Título da página que aparece na aba do navegador -->
+         <!--Início da área de estilos CSS internos-->
+    <style> 
+        body { 
+            text-align: center; /* Centraliza todo o conteúdo dentro do body */
+            font-family: Arial, sans-serif; /* Define a fonte do texto */
+        }
+
+        img {
+            max-width: 300px; /* Define um tamanho máximo para a imagem (para não ficar gigante) */
+        }
+
+        a {
+            display: block; /* Faz o link ocupar uma linha inteira (ficar em bloco) */
+            margin-top: 15px; /* Espaço acima do link, separando-o da imagem */
+            font-size: 18px; /* Tamanho da fonte do link */
+            text-decoration: none; /* Remove o sublinhado padrão dos links */
+            color: blue; /* Define a cor azul para o link */
+        }
+
+        a:hover {
+            text-decoration: underline; /* Quando passar o mouse, o link ficará sublinhado */
+        }
+    </style> <!-- Fim da área de estilos -->
+</head> <!-- Fim do cabeçalho -->
+
+<body> <!-- Corpo da página: onde fica o conteúdo visível -->
+
+    <!-- Exibe a imagem na tela -->
+    <img src="https://gustavoguanabara.github.io/html-css/imagens/mascote.png" alt="Mascote Guanabara"> 
+    <!-- 
+        - "src" define o caminho da imagem (neste caso, um link da internet).
+        - "alt" é o texto alternativo caso a imagem não carregue.
+    -->
+
+    <!-- Link que leva de volta para a página inicial -->
+    <a href="index.html" target="_self" rel="prev">Voltar para a página inicial</a>
+    <!-- 
+        - "href" indica o endereço de destino (neste caso, "index.html").
+        - "target='_self'" faz abrir no mesmo navegador/aba.
+        - "rel='prev'" indica que esta página é uma "próxima" e o link leva para a "anterior".
+    -->
+
+</body> <!-- Fim do corpo da página -->
+
+</html> <!-- Fim do documento HTML -->
+

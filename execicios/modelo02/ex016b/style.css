@@ -1,0 +1,99 @@
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;  /* Espaçamento vertical entre uma linha de texto e a próxima */
+    background-color: #f5f5f5;  /* Define a cor de fundo da página. */
+    color: #333; /* Define a cor padrão do texto dentro do BODY */
+}
+
+/* Cabeçalho */
+header {
+    text-align: center;
+    background-color: #2e7d32; /* verde */
+    color: white;
+    padding: 20px; /* define o espaço interno de um elemento*/
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2); /*cria uma sombra ao redor de um elemento*/
+}
+
+header h1 {
+    margin-bottom: 15px; /*adiciona 15px de espaço externo abaixo do <h1>
+    margin-bottom → cria espaço fora do <h1>, afastando ele dos elementos seguintes.
+
+padding-bottom → criaria espaço dentro do <h1>, empurrando o texto para cima dentro da própria caixa.
+
+*/
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Conteúdo principal */
+main {
+    max-width: 800px;
+    margin: 30px auto;     /* 30PX= margem em cima embaixo. /              AUTO=margens laterais se ajustem automaticament*/
+    padding: 20px;        /* impede que o texto/gráficos encostem direto nas bordas do <main>. */
+}
+
+/* Texto inicial */
+main > article {
+    background: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Seções */
+section {
+    display: flex; /* Transforma a <section> em um container flexível (Flexbox). */
+    flex-direction: column;  
+            /*Diz que os elementos filhos (artigos) devem ser organizados em coluna (um abaixo do outro).
+              Se fosse row, eles ficariam lado a lado (em linha).*/
+    gap: 20px;
+             /*Cria um espaçamento de 20px entre os elementos filhos da <section>.
+
+             Diferente de margin, o gap é mais semântico e prático porque só adiciona espaço entre os filhos, não nas bordas externas da seção.*/
+}
+
+/* Cada artigo dentro da seção */
+section article {
+    background: white;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+    transition: transform 0.2s; /*Esse código cria uma animação suave de 0.2s sempre que o transform do artigo mudar*/
+}
+
+section article:hover {  
+    /* hover = Significa que a funçao vai ser usada quando passar o mouse*/
+    transform: scale(1.02); /*Ao passar o mouse, ele dá um leve zoom (2%), destacando-se visualmente.*/
+}
+                /*transform → é uma propriedade usada para transformar elementos (mover, girar, redimensionar, inclinar, etc.).*/
+section h2 {
+    color: #2e7d32;
+    margin-bottom: 10px;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    background-color: #2e7d32;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+    box-shadow: 0 -4px 8px rgba(0,0,0,0.2);
+}
+

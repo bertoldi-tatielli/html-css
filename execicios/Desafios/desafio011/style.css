@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(26, 150, 26);
+    color: white;
+    background: linear-gradient(to bottom, rgb(2, 246, 148), rgb(3, 96, 45));
+    padding: 30px 30px 0px 30px;
+
+}
+
+a {
+    color: white;
+    /* deixa os links brancos */
+    text-decoration: none;
+    /* tira o sublinhado */
+    margin-right: 20px;
+    /* espaço entre um link e outro */
+    font-weight: bold;
+    /* opcional, deixa em negrito */
+    padding: 10px 10px 0px 10px;
+
+
+}
+
+header>p {
+    margin-bottom: 30px;
+    /* espaço entre o parágrafo e os links */
+}
+
+
+header>nav {
+    text-align: left;
+    margin: auto;
+    max-width: 800px;
+
+}
+
+p {
+    text-indent: 20px;
+    margin: 10px;
+}
+
+body {
+    background-color: rgb(15, 213, 134);
+
+}
+
+main {
+    background-color: white;
+    margin: 0px auto;
+    max-width: 800px;
+    padding: 1px 0px;
+
+
+
+}
+
+article>h1 {
+    margin: 10px;
+    padding: 5px;
+
+}
+
+h2 {
+    margin: 10px;
+    padding: 5px;
+    display: inline;
+    background: linear-gradient(to right, rgba(0, 200, 83, 0.6), rgba(0, 200, 83, 0));
+    padding: 0 5px;
+    /* um espaço para o "marca-texto" não colar no texto */
+
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(1, 66, 1);
+    ;
+
+}
+
+div>ul {
+
+    list-style-type: none;
+}
+
+.formulario {
+    background-color: rgb(2, 246, 148);
+    margin: 20px;
+    text-align: justify;
+    border-radius: 8px;
+}
+
+h3 {
+    background-color: rgb(3, 96, 45);
+    border-radius: 8px 8px 0px 0px;
+    text-indent: 15px;
+    /* recuo na primeira linha do parágrafo */
+}
+
+img {
+    max-width: 100%;
+}
+
+footer {
+    margin: auto;
+    max-width: 800px;
+    background-color: rgb(3, 96, 45); 
+    color: white;
+    text-align: center;
+}
