@@ -1,6 +1,8 @@
 # html-css
 
-Estou aprendendo a criar sites e agora vou gerenciar o meu repositorio 
+Estou aprendendo a criar sites e agora vou gerenciar o meu repositorio
+
+[Veja o resultado](https://bertoldi-tatielli.github.io/html-css/)
 
 # Módulo 1: Exercícios
 
