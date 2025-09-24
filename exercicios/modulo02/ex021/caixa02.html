@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,26 +11,31 @@
             background-color: darkgray;
             margin: 0px;
         }
+
         header {
             background-color: white;
             padding: 10px;
             margin: 10px;
         }
-        nav{
+
+        nav {
             background-color: rgb(204, 203, 203);
             padding: 3px;
-            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.46); 
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.46);
             /* Esse box shadow é a sombra aplicada e os vlores sao = a sombra na VERTICAL+HORIZONTAL+ESPALHAMENTO e a COR
-            */ 
+            */
         }
-        nav > a {
+
+        nav>a {
             text-decoration: none;
             color: white;
-            font-weight: bold; 
+            font-weight: bold;
         }
-        nav > a:hover {
+
+        nav>a:hover {
             text-decoration: underline;
         }
+
         main {
             background-color: white;
             padding: 10px;
@@ -37,13 +43,16 @@
             border-radius: 10px 0px;
             box-shadow: 4px 4px 9px 0px rgb(0, 0, 0.384);
         }
+
         article {
             background-color: lightgray;
             padding: 5px;
         }
-        article > aside {
+
+        article>aside {
             background-color: rgb(165, 165, 165);
         }
+
         footer {
             background-color: black;
             color: white;
@@ -52,9 +61,10 @@
             margin: 0px;
         }
 
-        footer > p {
+        footer>p {
             margin: 0px;
         }
+
         div#bola {
             height: 100px;
             width: 100px;
@@ -64,7 +74,8 @@
         }
     </style>
 </head>
-<body> 
+
+<body>
     <header>
         <h1>Meu Site</h1>
         <nav>
@@ -80,18 +91,19 @@
         <section id="noticias">
             <article>
                 <h2>Noticias sobre o Brasil</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro incidunt adipisci enim laborum a soluta ipsa quam veniam ducimus fugiat corrupti vel, excepturi laboriosam dolor culpa quasi animi labore assumenda!</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro incidunt adipisci enim laborum a
+                    soluta ipsa quam veniam ducimus fugiat corrupti vel, excepturi laboriosam dolor culpa quasi animi
+                    labore assumenda!</p>
                 <aside>
-                    <p>Artigo escrito  por Jose Silva</p>
+                    <p>Artigo escrito por Jose Silva</p>
                 </aside>
             </article>
         </section>
+        <div id="bola"></div>
     </main>
     <footer>
         <p>Desenvolvido por Curso em Video </p>
     </footer>
-
-    <div id="bola"></div>
-    
 </body>
+
 </html>
