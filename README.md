@@ -6,7 +6,6 @@ Meus primeiros exercícios de HTML5 e CSS3
 
 # Módulo 1: Exercícios
 
-<div class="custom-box">
 Aqui estão os exercícios do Módulo 1:
 
 1. [Olá Mundo](exercicios/modulo01/ex001/index.html)
@@ -37,4 +36,3 @@ Aqui estão os exercícios do Módulo 2:
 21. [CSS - Personalizando Links](exercicios/modulo02/ex016/link.html)
 22. [CSS - Box-level e Inline](exercicios/modulo02/ex021/caixa01.html)
 23. [CSS - Grouping Tags](exercicios/modulo02/ex021/caixa02.html)
-</div>
