@@ -1,6 +1,6 @@
 # html-css
 
-Estou aprendendo a criar sites e agora vou gerenciar o meu repositorio
+Meus primeiros exercícios de HTML5 e CSS3
 
 [Veja o resultado](https://bertoldi-tatielli.github.io/html-css/)
 
