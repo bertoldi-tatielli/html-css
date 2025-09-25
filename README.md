@@ -23,6 +23,8 @@ Aqui estão os exercícios do Módulo 1:
 
 # Módulo 2: Exercícios
 
+Aqui estão os exercícios do Módulo 2:
+
 13. [CSS - box](exercicios/modulo02/ex016/index.html)
 14. [CSS - Natureza](exercicios/modulo02/ex016b/index.html)
 15. [CSS - Fontes](exercicios/modulo02/ex017/index.html)
