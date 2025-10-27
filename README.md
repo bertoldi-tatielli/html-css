@@ -1,4 +1,4 @@
-# html-css
+# HTML5-CSS3
 
 Meus primeiros exercícios de HTML5 e CSS3
 
