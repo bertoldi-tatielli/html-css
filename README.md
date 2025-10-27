@@ -32,6 +32,5 @@ Aqui estão os exercícios do Módulo 2:
 17. [CSS - Letras e cores](exercicios/modulo02/ex019/index.html)
 18. [CSS - Houver](exercicios/modulo02/ex020/houver.html)
 19. [CSS - Pseudo-classes](exercicios/modulo02/ex020/index.html)
-20. [CSS - Personalizando Links](exercicios/modulo02/ex016/index.html)
-21. [CSS - Box-level e Inline](exercicios/modulo02/ex021/caixa01.html)
-22. [CSS - Grouping Tags](exercicios/modulo02/ex021/caixa02.html)
+20. [CSS - Box-level e Inline](exercicios/modulo02/ex021/caixa01.html)
+21. [CSS - Grouping Tags](exercicios/modulo02/ex021/caixa02.html)
