@@ -34,3 +34,8 @@ Aqui estão os exercícios do Módulo 2:
 19. [CSS - Pseudo-classes](exercicios/modulo02/ex020/index.html)
 20. [CSS - Box-level e Inline](exercicios/modulo02/ex021/caixa01.html)
 21. [CSS - Grouping Tags](exercicios/modulo02/ex021/caixa02.html)
+
+
+#Projetos
+
+1. [Natureza](exercicios\Projetos\projeto001\index.html)
