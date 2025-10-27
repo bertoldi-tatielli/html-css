@@ -10,7 +10,7 @@ Aqui estão os exercícios do Módulo 1:
 
 1. [Olá Mundo](exercicios/modulo01/ex001/index.html)
 2. [Parágrafo e quebra de linha](exercicios/modulo01/ex002/index.html)
-3. [Exercício 04](exercicios/modulo01/ex004/index.html)
+3. [Criando um Favicon](exercicios/modulo01/ex004/index.html)
 4. [Títulos e destaque](exercicios/modulo01/ex005/index.html)
 5. [Marcação de texto](exercicios/modulo01/ex007/index.html)
 6. [Abreviacões e texto invertido](exercicios/modulo01/ex008/index.html)
