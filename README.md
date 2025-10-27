@@ -36,6 +36,6 @@ Aqui estão os exercícios do Módulo 2:
 21. [CSS - Grouping Tags](exercicios/modulo02/ex021/caixa02.html)
 
 
-#Projetos
+# Projetos
 
 1. [Natureza](exercicios\Projetos\projeto001\index.html)
