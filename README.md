@@ -39,3 +39,5 @@ Aqui estão os exercícios do Módulo 2:
 # Projetos
 
 1. [Natureza](exercicios\Projetos\projeto001\index.html)
+2. [Mascote Android](exercicios\Projetos\projeto002\index.html)
+3. [Cordel](exercicios\Projetos\projeto002\index.html)
