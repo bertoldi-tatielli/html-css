@@ -19,6 +19,13 @@
             padding: 10px;
         }
 
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgrey;
+        }
+
         thead, tfoot {
             background-color: gray;
             color: white;
@@ -42,10 +49,12 @@
             TR, TD, TH
     -->
 <table>
+    <caption>População das Unidades Federativas</caption>
+    <!-- Legenda da minha tabela -->
     <thead>
         <tr>
-            <th>Estado</th>
-            <th>População</th>
+            <th scope="col">Estado</th>
+            <th scope="col" style=" width: 50px;">População</th>
         </tr>
     </thead>
     <tbody>
@@ -160,7 +169,7 @@
     </tbody>
     <tfoot>
         <tr>
-            <th>Total de Habitantes</th>
+            <th scope="row">Total de Habitantes</th>
             <td class="num"><STRONG>204.060.756</STRONG></td>
         </tr>
     </tfoot>
