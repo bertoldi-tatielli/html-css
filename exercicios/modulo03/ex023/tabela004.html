@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Tabela com colspan, rowspan e pseudoclasses</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f8f8f8;
+            padding: 40px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 600px;
+            margin: 0 auto;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        td {
+            border: 1px solid #444;
+            padding: 15px;
+            text-align: center;
+            transition: background-color 0.3s;
+        }
+
+        /* 🔹 Quando o mouse passa sobre a célula */
+        td:hover {
+            background-color: #fff59d; /* amarelo claro */
+        }
+
+        /* 🔹 Primeira célula de cada linha (primeira coluna) */
+        td:first-child {
+            font-weight: bold;
+            background-color: #e3f2fd; /* azul claro */
+        }
+
+        /* 🔹 Segunda coluna, para visualização */
+        td:nth-child(2) {
+            background-color: #f0f0f0;
+        }
+
+        /* 🔹 Cabeçalho especial (usando colspan) */
+        .cabecalho {
+            background-color: #bbdefb;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Tabela com colspan, rowspan e Pseudoclasses</h1>
+
+    <table>
+        <tr>
+            <td colspan="4" class="cabecalho">Tabela de Produtos</td>
+        </tr>
+        <tr>
+            <td>Categoria</td>
+            <td>Produto</td>
+            <td>Preço</td>
+            <td>Estoque</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Eletrônicos</td>
+            <td>Celular</td>
+            <td>R$ 2.500</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>Notebook</td>
+            <td>R$ 4.200</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Roupas</td>
+            <td>Camiseta</td>
+            <td>R$ 60</td>
+            <td>120</td>
+        </tr>
+        <tr>
+            <td>Jaqueta</td>
+            <td>R$ 250</td>
+            <td>40</td>
+        </tr>
+        <tr>
+            <td colspan="4" class="cabecalho">Total de Itens em Estoque: 205</td>
+        </tr>
+    </table>
+
+</body>
+</html>
