@@ -41,4 +41,4 @@ Aqui estão os exercícios do Módulo 2:
 1. [Natureza](exercicios\Projetos\projeto001\index.html)
 2. [Mascote Android](exercicios\Projetos\projeto002\index.html)
 3. [Cordel](exercicios\Projetos\projeto003\index.html)
-4. [Redes Sociais](exercicios\Projetos\projeto004\index.html).
+4. [Redes Sociais](exercicios\Projetos\projeto004\index.html)
