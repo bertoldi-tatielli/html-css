@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+   
+}
+
+body {
+    background: url('../pacote-d013/imagens/pexels-fauxels-3183195.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+main {
+    position: relative;
+    height: 100vh;
+}
+
+footer {
+    width: 100vw;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: rgba(0,0,0,0.7);
+    font-size: 16px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+section#telefone {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 317px;
+    height: 800px;
+
+    background: url('../pacote-d013/imagens/frame-iphone.png') no-repeat center;
+    background-size: contain;
+}
+
+
+iframe#tela {
+    position: relative;
+    width: 272px;
+    height: 481px;
+    top: 162px;
+    left: 23px;
+
+    border: none;
+    overflow: hidden;
+    
+
+}
+
+section#redes-sociais {
+    text-align: right;
+}
+
+
+section#redes-sociais img {
+    width: 60px;
+    margin: 15px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.400);
+    box-sizing: border-box;
+}
+
+section#redes-sociais img:hover {
+    border: 2px solid rgb(255, 255, 255, 0.637);
+    transform: translate(-3px -3px);
+    box-shadow: 5px 5px 10px rgb(255, 255, 255, 0.623);
+    transition: transform 0.3;
+}
