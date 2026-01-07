@@ -1,3 +1,13 @@
 @charset "UTF-8";
 
 /* Aparelho deitado (landscape) */
+
+link {
+    padding: 20px;
+}
+
+body {
+    background-image: url(../imagens/curso-landscape.png);
+    background-position: left bottom;
+}
+
