@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+</head>
+<body onresize="mudouTamanho()">
+
+    <header>
+        <h1>Meu Site</h1>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()" >menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Layout Responsivo</a></li>
+                <li><a href="#">Media Queries</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </menu>
+    </header>
+
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+
+            <p>
+                Este site foi criado como um exemplo prático para demonstrar o uso de media queries
+                no desenvolvimento web. A proposta é mostrar como um layout pode se adaptar a
+                diferentes tamanhos de tela, oferecendo uma melhor experiência ao usuário em
+                dispositivos móveis, tablets e computadores.
+            </p>
+
+            <p>
+                O design responsivo é uma abordagem essencial atualmente, pois permite que o
+                conteúdo se ajuste automaticamente conforme a largura da tela. Isso evita rolagens
+                desnecessárias, melhora a legibilidade e torna a navegação mais intuitiva, independentemente
+                do dispositivo utilizado.
+            </p>
+
+            <p>
+                As media queries permitem aplicar estilos específicos para cada tipo de resolução,
+                tornando possível reorganizar menus, redimensionar textos e adaptar imagens.
+                Com isso, o site se mantém funcional e visualmente agradável em qualquer cenário,
+                servindo como base para projetos mais completos no futuro.
+            </p>
+        </article>
+    </main>
+
+    <script>
+        function mudouTamanho() {
+            if (window.innerWidth >=769){
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
+        function clickMenu() {
+           if (itens.style.display == 'block') {
+            itens.style.display = 'none'
+           } else {
+            itens.style.display = 'block'
+           }
+        }
+    </script>
+
+    <footer>
+        <p>Desenvolvido por Tatielli Bertoldi</p>
+    </footer>
+
+</body>
+</html>
