@@ -1,10 +1,10 @@
 @charset "UTF-8";
-
-
 /*Smartphones   481px até 768px 
 Tablet 'portrait e landscape' 769px até 1024px 
 Laptops e desktops  1025px até 1440px
 Telas grandes (monitores wide 4K) acima de 1440px */
+
+
 
  @media screen and (min-width: 769px) {
 
