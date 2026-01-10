@@ -42,3 +42,4 @@ Aqui estão os exercícios do Módulo 2:
 2. [Mascote Android](exercicios\Projetos\projeto002\index.html)
 3. [Cordel](exercicios\Projetos\projeto003\index.html)
 4. [Redes Sociais](exercicios\Projetos\projeto004\index.html)
+5. [Media Query](exercicios\Projetos\projeto005\index.html)
