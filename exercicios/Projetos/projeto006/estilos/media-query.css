@@ -10,7 +10,7 @@ Telas Grandes (monitores wide 4K) acima de 1440px */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
 
     body {
-        background-image: linear-gradient( to top, #49a09d, #5f2c82);
+        background-image: linear-gradient(to top, #DBEAFE, #F9FAFB);
     }
 
     section#login {
@@ -18,7 +18,6 @@ Telas Grandes (monitores wide 4K) acima de 1440px */
     }
 
     section#login > div#imagem {
-        background-position: 70% center;
         float: left;
         width: 30%;
         height: 100%;
@@ -28,15 +27,15 @@ Telas Grandes (monitores wide 4K) acima de 1440px */
         float: right;
         width: 70%;
     }
-
 }
+
 
 @media screen and (min-width: 1024px) {
 
     body {
-        background-image: linear-gradient( to top, #49a09d, #5f2c82);
+        background-image: linear-gradient(to top, #DBEAFE, #F9FAFB);
     }
-
+    
     section#login {
         width: 1020px;
     }
@@ -51,5 +50,4 @@ Telas Grandes (monitores wide 4K) acima de 1440px */
         float: right;
         width: 50%;
     }
-    
 }
