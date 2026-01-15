@@ -14,18 +14,18 @@ Telas Grandes (monitores wide 4K) acima de 1440px */
     }
 
     section#login {
-        width: 90vw;
+        width: 720px;
     }
 
     section#login > div#imagem {
         float: left;
-        width: 30%;
+        width: 50%;
         height: 100%;
     }
 
     section#login > div#formulario {
         float: right;
-        width: 70%;
+        width: 50%;
     }
 }
 
