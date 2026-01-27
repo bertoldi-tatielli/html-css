@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo do Mazinho</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .container {
+            display: block;
+        }
+
+        .d-flex {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .d-row {
+            flex-direction: row;
+        }
+
+        .d-col {
+            flex-direction: column;
+        }
+
+        .d-row-r {
+            flex-direction: row-reverse;
+        }
+
+        .d-col-r {
+            flex-direction: column-reverse;
+        }
+
+        .justify-center {
+            justify-content: center;
+        }
+
+        .justify-space-evenly {
+            justify-content: space-evenly;
+        }
+
+        .justify-space-around {
+            justify-content: space-around;
+        }
+
+        .justify-space-between {
+            justify-content: space-between;
+        }
+
+        .align-center {
+            align-content: center;
+        }
+
+        .align-space-around {
+            align-content: space-around;
+        }
+
+        .align-space-evenly {
+            align-content: space-evenly;
+        }
+
+        .align-space-between {
+            align-content: space-between;
+        }
+
+        .w-100 {
+            width: 100%;
+        }
+
+        .w-50 {
+            width: 50%;
+        }
+
+        .w-25 {
+            width: 25%;
+        }
+
+        .m-auto {
+            margin: auto;
+        }
+
+        .m-5 {
+            margin: 5px;
+        }
+
+
+        .p-5 {
+            padding: 5px;
+        }
+
+        .p-20 {
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            width: 100%;
+        }
+
+        p {
+            margin: 5px;
+        }
+
+        .item {
+            width: 50px;
+            height: 50px;
+            margin: 5px;
+        }
+
+        .item-w100 {
+            width: 100%;
+            height: 50px;
+            margin: 5px;
+        }
+
+        /* cores por posição: 1 = vermelho, 2 = verde, 3 = azul */
+        .d-flex .item:nth-child(1),
+        .d-flex .item-w100:nth-child(1) {
+            background-color: red;
+        }
+
+        .d-flex .item:nth-child(2),
+        .d-flex .item-w100:nth-child(2) {
+            background-color: green;
+        }
+
+        .d-flex .item:nth-child(3),
+        .d-flex .item-w100:nth-child(3) {
+            background-color: blue;
+        }
+
+        .bg-azure {
+            background-color: rgb(64, 252, 252);
+        }
+
+        .bg-brown {
+            background-color: brown;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="conteiner m-auto p-20">
+        <h1>Exemplo do mazinho</h1>
+
+        <!-- instructions -->
+        <div class="d-flex">
+            <div class="w-100">
+                <p>Dicas</p>
+                <ul>
+                    <li>* box-sizing: border-box</li>
+                </ul>
+            </div>
+            <div class="w-100">
+                <p>Propriedades do pai</p>
+                <ul>
+                    <li>display: flex</li>
+                    <li>flex-direction: row | column | row-reverse | column-reverse </li>
+                    <li>
+                        justify-content: center | space-evenly | space-around | space-between
+                    </li>
+                    <li>align-content: center | space-around | space-evenly | space-between</li>
+                </ul>
+            </div>
+            <div class="w-100">
+                <p>Propriedades do filho</p>
+                <ul>
+                    <li>margin</li>
+                    <li>padding</li>
+                    <li>width</li>
+                    <li>height</li>
+                </ul>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- display row -->
+        <div class="d-flex w-100">
+            <div class="w-25 p-5">
+                <p>display flex</p>
+                <div class="d-flex w-100 bg-azure">
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                </div>
+            </div>
+            <div class="w-25 p-5">
+                <p>display flex | row-reverse</p>
+                <div class="d-flex d-row-r w-100 bg-azure">
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- justify -->
+        <div class="d-flex w-100">
+            <div class="w-25 p-5">
+                <p>display flex | justify-center </p>
+                <div class="d-flex justify-center w-100 bg-azure">
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                </div>
+            </div>
+            <div class="w-25 p-5">
+                <p>display flex | justify-space-evenly</p>
+                <div class="d-flex justify-space-evenly w-100 bg-azure">
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                </div>
+            </div>
+            <div class="w-25 p-5">
+                <p>display flex | justify-space-around</p>
+                <div class="d-flex justify-space-around w-100 bg-azure">
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                </div>
+            </div>
+            <div class="w-25 p-5">
+                <p>display flex | justify-space-between</p>
+                <div class="d-flex justify-space-between w-100 bg-azure">
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- align -->
+        <div class="d-flex w-100">
+            <div class="w-25 p-5">
+                <p>display flex | align-center </p>
+                <div style="height: 300px;" class="d-flex align-center w-100 bg-azure">
+                    <div class="item-w100"></div>
+                    <div class="item-w100"></div>
+                    <div class="item-w100"></div>
+                </div>
+            </div>
+            <div class="w-25 p-5">
+                <p>display flex | align-space-evenly</p>
+                <div style="height: 300px;" class="d-flex align-space-evenly w-100 bg-azure">
+                    <div class="item-w100"></div>
+                    <div class="item-w100"></div>
+                    <div class="item-w100"></div>
+                </div>
+            </div>
+            <div class="w-25 p-5">
+                <p>display flex | align-space-around</p>
+                <div style="height: 300px;" class="d-flex align-space-around w-100 bg-azure">
+                    <div class="item-w100"></div>
+                    <div class="item-w100"></div>
+                    <div class="item-w100"></div>
+                </div>
+            </div>
+            <div class="w-25 p-5">
+                <p>display flex | align-space-between</p>
+                <div style="height: 300px;" class="d-flex align-space-between w-100 bg-azure">
+                    <div class="item-w100"></div>
+                    <div class="item-w100"></div>
+                    <div class="item-w100"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- display col -->
+        <div class="d-flex w-100">
+            <div class="w-25 p-5">
+                <p>display flex | col</p>
+                <div class="d-flex d-col w-100 bg-azure">
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                </div>
+            </div>
+            <div class="w-25 p-5">
+                <p>display flex | col-r</p>
+                <div class="d-flex d-col-r w-100 bg-azure">
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
