@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+header > nav {
+    width: 100%;
+    justify-content: space-between; /* ou space-between */
+}
+
+header > nav > a {
+    flex: 1 1 calc(33.33% - 10px); /* 3 por linha */
+    text-align: center;
+}
